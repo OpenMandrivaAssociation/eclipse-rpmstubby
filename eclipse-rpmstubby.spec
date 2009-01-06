@@ -12,11 +12,12 @@ URL:            http://www.eclipse.org/linuxtools/
 #sh eclipse-rpmstubby-fetch-src.sh
 Source0:        %{name}-fetched-src-%{version}.tar.bz2
 Source1:        eclipse-rpmstubby-fetch-src.sh
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildArch: noarch
 
 BuildRequires: eclipse-pde >= 1:3.4.0
+BuildRequires: zip
 Requires: eclipse-platform >= 3.4.0
 
 %description
