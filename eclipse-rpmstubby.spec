@@ -6,7 +6,7 @@ Version:        0.1.0
 Release:        %mkrel 1
 Summary:        Rpm specfile generator for Eclipse features
 
-Group:          Development/Tools
+Group:          Development/Java
 License:        EPL
 URL:            http://www.eclipse.org/linuxtools/
 #sh eclipse-rpmstubby-fetch-src.sh
