@@ -2,7 +2,7 @@
 %define install_loc    %{_datadir}/eclipse/dropins/rpmstubby
 
 Name:           eclipse-rpmstubby
-Version:        0.1.0
+Version:        0.1.1
 Release:        %mkrel 1
 Summary:        Rpm specfile generator for Eclipse features
 
@@ -28,14 +28,14 @@ feature.xml.
 %setup -q -n %{name}-fetched-src-%{version}
 
 %build
-%{eclipse_base}/buildscripts/pdebuild -a "-DjavacSource=1.5 -DjavacTarget=1.5"
+%{eclipse_base}/buildscripts/pdebuild
 
 %install
 %{__rm} -rf %{buildroot}
 install -d -m 755 $RPM_BUILD_ROOT%{install_loc}
 
 %{__unzip} -q -d $RPM_BUILD_ROOT%{install_loc} \
-     build/rpmBuild/org.eclipse.linuxtools.rpmstubby.feature.zip
+     build/rpmBuild/org.eclipse.linuxtools.rpmstubby.zip
 
 %clean
 %{__rm} -rf %{buildroot}
