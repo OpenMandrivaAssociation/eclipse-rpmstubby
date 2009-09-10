@@ -3,7 +3,7 @@
 
 Name:           eclipse-rpmstubby
 Version:        0.1.1
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Rpm specfile generator for Eclipse features
 
 Group:          Development/Java
