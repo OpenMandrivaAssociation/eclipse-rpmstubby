@@ -4,7 +4,7 @@
 
 Name:           eclipse-rpmstubby
 Version:        0.6.0
-Release:        2
+Release:        4
 Summary:        Rpm specfile generator for Eclipse features
 
 Group:          Development/Java
