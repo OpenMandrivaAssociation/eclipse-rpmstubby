@@ -9,7 +9,7 @@ Summary:        Rpm specfile generator for Eclipse features
 
 Group:          Development/Java
 License:        EPL
-URL:            http://www.eclipse.org/linuxtools/projectPages/rpmstubby/
+URL:            https://www.eclipse.org/linuxtools/projectPages/rpmstubby/
 #sh eclipse-rpmstubby-fetch-src.sh
 Source0:        %{name}-fetched-src-%{version}.tar.bz2
 Source1:        eclipse-rpmstubby-fetch-src.sh
